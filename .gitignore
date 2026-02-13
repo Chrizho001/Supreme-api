@@ -1,0 +1,87 @@
+(# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Django stuff:
+# Ignore database files and uploaded media
+db.sqlite3
+/media/
+media/
+
+# Static files collected by `collectstatic`
+staticfiles/
+
+# Local settings and environment variables
+local_settings.py
+.env
+.env.*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Socket files
+*.sock
+
+# Coverage and test result files
+.coverage
+coverage.xml
+nose2-*.xml
+
+# Build artifacts
+*.egg
+*.egg-info
+
+# Editor/project files
+*.sublime-project
+*.sublime-workspace
+
+# pyenv
+.python-version
+
+# Mypy / type check caches
+.mypy_cache/
+.ruff_cache/
+
+# Misc
+secrets.json
+
